@@ -6,6 +6,8 @@ var engine, world;
 var box1, pig1;
 var backgroundImg;
 
+var Hello;
+
 function preload() {
     backgroundImg = loadImage("sprites/bg.png");
 }
@@ -59,4 +61,7 @@ function draw(){
     log5.display();
 
     bird.display();
+
+    console.log(Hello);
+
 }
